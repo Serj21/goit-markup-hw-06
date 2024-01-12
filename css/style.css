@@ -35,7 +35,9 @@ a {
 .header-nav:hover {
   color: #404bbf;
 }
-
+header{
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-nav {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -44,6 +46,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
 }
 .header-item {
   color: #2e2f42;
