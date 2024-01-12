@@ -1,0 +1,248 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 2px solid red;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+.header-nav:hover {
+  color: #404bbf;
+}
+
+.header-nav {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-item {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo {
+  color: #2e2f42;
+}
+.logo:hover {
+  color: #404bbf;
+}
+.logo:active {
+  text-decoration: underline;
+}
+.logo:focus {
+  color: #404bbf;
+}
+.header-link:hover {
+  color: #404bbf;
+}
+.header-link:focus {
+  color: #404bbf;
+}
+img {
+  display: block;
+}
+
+.post:hover {
+  color: #404bbf;
+}
+.post:focus {
+  color: #404bbf;
+}
+
+
+
+.contacts {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 180px 0;
+  width: 1158px;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+.hero-title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  width: 496px;
+  display: block;
+  margin: 0 auto;
+}
+button {
+  font-family: inherit;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  background: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  display: block;
+  margin: 0 auto;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.benenefits-title {
+  text-align: center;
+}
+
+.benenefits-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  pad
+}
+.benenefits-item {
+  width: 264px;
+}
+.benenefits-caption {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.benenefits-desc {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.portfolio-title {
+  text-align: center;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+
+}
+.team-item {
+  width: calc((100%-24px * 3) / 4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+}
+.team-title,
+.portfolio-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 120px;
+}
+.portfolio-item{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+.team-caption,
+.portfolio-caption {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.team-desc,
+.portfolio-desc {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.footer-link {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.down-logo {
+  color: #f4f4fd;
+}
+footer {
+  background-color: #2e2f42;
+}
+.footer-desc {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
