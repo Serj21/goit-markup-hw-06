@@ -201,6 +201,7 @@ button {
   gap: 8px;
   padding-bottom: 32px;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-title,
 .portfolio-title {
