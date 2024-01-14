@@ -46,6 +46,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  align-items: center;
 }
 .header > .container {
   display: flex;
@@ -58,7 +59,7 @@ a {
 .header-list {
   display: flex;
   gap: 40px;
-  padding-left: 80px;
+  margin-right: 76px;
 }
 .header-item {
   color: #2e2f42;
@@ -66,6 +67,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .logo {
   color: #2e2f42;
@@ -109,6 +111,7 @@ img {
 }
 .contacts-list {
   display: flex;
+  gap: 40px;
 }
 .hero {
   background-color: #2e2f42;
