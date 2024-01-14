@@ -55,6 +55,8 @@ a {
   align-items: center;
 }
 .header-link {
+  margin-right: 76px;
+  padding: 24px 0;
 }
 .header-list {
   display: flex;
@@ -66,10 +68,8 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 .logo {
-  margin-right: 76px;
   color: #2e2f42;
 }
 .logo:hover {
