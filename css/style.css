@@ -221,6 +221,18 @@ button {
   gap: 8px;
   align-self: stretch;
 }
+.team-caption {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-desc {
+  text-align: center;
+}
+.team-data {
+  padding: 32px 0;
+}
 .team-caption,
 .portfolio-caption {
   color: #2e2f42;
