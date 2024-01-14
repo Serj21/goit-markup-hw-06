@@ -59,7 +59,6 @@ a {
 .header-list {
   display: flex;
   gap: 40px;
-  margin-right: 76px;
 }
 .header-item {
   color: #2e2f42;
@@ -70,6 +69,7 @@ a {
   padding: 24px 0;
 }
 .logo {
+  margin-right: 76px;
   color: #2e2f42;
 }
 .logo:hover {
