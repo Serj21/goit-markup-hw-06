@@ -113,10 +113,10 @@ img {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  padding: 180px 0;
   width: 1158px;
   margin: 0 auto;
   flex-shrink: 0;
+  padding: 188px 0 188px;
 }
 .hero-title {
   color: #fff;
@@ -124,9 +124,10 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
   display: block;
   margin: 0 auto;
+
+  max-width: 496px;
 }
 button {
   font-family: inherit;
@@ -139,6 +140,10 @@ button {
   padding: 16px 32px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -148,7 +153,9 @@ button {
 .benenefits-title {
   text-align: center;
 }
-
+.visually-hidden {
+  visibility: hidden;
+}
 .benenefits-list {
   display: flex;
   gap: 24px;
@@ -202,8 +209,9 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-bottom: 80px;
+
   padding-top: 120px;
+  margin-bottom: 72px;
 }
 .portfolio-item {
   display: flex;
