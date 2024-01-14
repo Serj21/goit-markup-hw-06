@@ -171,6 +171,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .benenefits-desc {
   color: #434455;
@@ -221,8 +223,6 @@ button {
 }
 .team-data {
   padding: 32px 0;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .team-caption,
 .portfolio-caption {
