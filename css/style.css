@@ -238,17 +238,6 @@ button {
   align-items: center;
   gap: 32px;
 }
-.portfolio-title {
-  text-align: center;
-}
-.portfolio-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
-}
 .team-desc,
 .portfolio-desc {
   color: #434455;
@@ -260,11 +249,27 @@ button {
   align-items: center;
   gap: 32px;
 }
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.product-desc {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: space-between;
+  row-gap: 48px;
 }
 
 .footer-link {
