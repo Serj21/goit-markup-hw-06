@@ -48,7 +48,8 @@ a {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-link {
   font-family: Raleway, sans-serif;
