@@ -41,6 +41,7 @@ a {
 }
 .header-nav {
   display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   align-items: center;
 }
@@ -86,6 +87,7 @@ a {
 .current-link{
 color:#404BBF ;
 position: relative;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list {
   display: flex;
@@ -100,6 +102,7 @@ position: relative;
 }
 .logo {
   color: #2e2f42;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo:hover {
   color: #404bbf;
@@ -120,15 +123,16 @@ position: relative;
 img {
   display: block;
 }
+.post {
+  display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .post:hover {
   color: #404bbf;
 }
 .post:focus {
   color: #404bbf;
-}
-.post {
-  display: flex;
 }
 
 .contacts {
@@ -181,6 +185,7 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -378,6 +383,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item {
   width: calc((100% - 2 * 24px) / 3);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-desc {
   padding: 32px 16px;
