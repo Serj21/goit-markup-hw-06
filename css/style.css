@@ -151,7 +151,7 @@ img {
   gap: 40px;
 }
 .hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-background.jpg);
   background-color: #2e2f42;
   text-align: center;
   flex-shrink: 0;
