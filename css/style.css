@@ -435,6 +435,13 @@ footer {
   letter-spacing: 0.02em;
   width: 264px;
 }
+.logo-social{
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo{
+  margin-right: 120px;
+}
 .social {
   
 }
