@@ -156,13 +156,14 @@ img {
   text-align: center;
   flex-shrink: 0;
   padding: 188px 0 188px;
+  
 
-  background-image: linear-gradient(rgba(46, 47, 66, 0.70),
-  rgba(46, 47, 66, 0.70)), 
+  background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
   url(../images/hero/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .hero-title {
   color: #fff;
@@ -219,6 +220,7 @@ button {
   justify-content: center;
   width: 264px;
   height: 112px;
+  margin-bottom: 8px;
 
 border-radius: 4px;
 border: 1px solid #8E8F99;
@@ -296,6 +298,7 @@ gap: 24px;
 
 }
 .team-icon {
+  fill: #f4f4fd;
   
   
 }
