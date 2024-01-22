@@ -157,6 +157,7 @@ img {
   flex-shrink: 0;
   padding: 188px 0 188px;
   
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -479,9 +480,73 @@ margin-bottom: 16px;
 .social-icon-icon {
   fill: #f4f4fd ;
 }
-.team-icon {
+
+.footer-form {
+  
 }
+.subscribe-title{
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+
+}
+.footer-label {
+}
+.footer-label-input {
+  width: 264px; 
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff; 
+
+
+}
+::placeholder {
+  color: #ffffff;
+}
+.fotter-button {
+  height: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+  background-color: #4D5AE5;
+
+
+}
+.footer-button-icon{
+  margin-left: 16px;
+  fill: #FFFFFF;
+}
+
+
 .backdrop {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
