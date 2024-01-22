@@ -441,6 +441,7 @@ footer {
   margin-right: 120px;
 }
 .social {
+  margin-right: 80px;
   
 }
 .social-title {
@@ -493,11 +494,12 @@ margin-bottom: 16px;
   color: #ffffff;
 }
 .subscribe-form {
-  display: flex;
-  gap: 24px;
+  
 
 }
 .footer-label {
+  display: flex;
+  gap: 24px;
 }
 .footer-label-input {
   width: 264px; 
@@ -547,7 +549,7 @@ margin-bottom: 16px;
 
 
 .backdrop {
-
+display: none;
   position: fixed;
   top: 0;
   left: 0;
