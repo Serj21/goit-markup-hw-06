@@ -669,12 +669,12 @@ text-decoration-line: underline;
 
 .custom-checkbox {
   display: inline-flex;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   justify-content: center;
   align-items: center;
 
-  border-radius: 6px;
+  border-radius: 2px;
   border: 1px solid rgba(17, 17, 17, 0.14);
 
   margin-right: 12px;
