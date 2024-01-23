@@ -38,7 +38,7 @@ section {
   }
 }
 /* Desctop screen */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -261,7 +261,7 @@ letter-spacing: 0.02em;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
+  max-width: 1200px;
 margin-left: auto;
     margin-right: auto;
 }
@@ -284,13 +284,13 @@ margin-left: auto;
   }
 }
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:1200px) {
   .hero{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1_desc@1x_result.jpg);
   }
   }
 
-  @media screen and (min-width:1440px) and (min-resolution: 192dpi) {
+  @media screen and (min-width:1200px) and (min-resolution: 192dpi) {
     .hero{
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1_desc@2x_result.jpg);
     }
@@ -302,7 +302,7 @@ margin-left: auto;
 }
 }
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:1200px) {
   .hero {
     padding: 188px 0 188px;
   }
@@ -325,7 +325,7 @@ margin-left: auto;
   }
 }
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:1200px) {
   .hero-title{
     margin: 0 auto 46px auto;
   }
@@ -428,6 +428,13 @@ background: #F4F4FD;
     column-gap: 24px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .benenefits-list{
+    flex-wrap: nowrap;
+  }
+}
+
 .benenefits-item {
   
   /* width: calc((100% - 72px) / 4); */
@@ -443,9 +450,7 @@ background: #F4F4FD;
 
 .benenefits-caption {
   color: #2e2f42;
-  /* font-size: 20px; */
-  /* font-weight: 500; */
-  /* line-height: 1.2; */
+ 
   margin-bottom: 8px;
   border-radius: 0px 0px 4px 4px;
 
@@ -456,6 +461,15 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
   
 }
+
+@media screen and (min-width: 1200px) {
+  .benenefits-caption{
+     font-size: 20px; 
+   font-weight: 500; 
+   line-height: 1.2; 
+  }
+}
+
 .benenefits-desc {
   color: #434455;
   font-size: 16px;
@@ -485,7 +499,7 @@ text-transform: capitalize;
   /* justify-content: space-between; */
   align-items: center;
 }
-@media  screen and (min-width:1440px ) {
+@media  screen and (min-width:1200px ) {
 .team-list {
   flex-wrap: wrap;
   gap: 24px;
@@ -637,9 +651,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   gap: 24px;
-  justify-content: space-between;
+  justify-content: center;
   row-gap: 48px;
 }
 .portfolio-item:hover{
@@ -697,7 +711,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1440px ){
+@media only screen and (min-width: 1200px ){
   .footer > .container{
     gap: 0;
   }
@@ -717,12 +731,12 @@ footer {
 .footer-logo{
   /* margin-right: 120px; desk */ 
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .footer-logo{
     margin-right: 120px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .social {
     margin-right: auto;
   }
@@ -849,7 +863,7 @@ margin-bottom: 16px;
 
 
 .backdrop {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 0;
   left: 0;
@@ -866,7 +880,7 @@ margin-bottom: 16px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 288px;
   min-height: 584px;
   padding: 72px 24px 24px 24px;
   
@@ -875,6 +889,13 @@ margin-bottom: 16px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
+@media only screen and (min-width: 768px ){
+  .modal{
+    width: 408px;
+  }
+}
+
 .modal-btn {
   position: absolute;
   top: 24px;
@@ -914,7 +935,7 @@ margin-bottom: 16px;
 }
 .modal-caption {
 margin-bottom: 16px;
-width: 360px;
+width: 256px;
 color: #2E2F42;
 text-align: center;
 font-size: 16px;
@@ -923,6 +944,14 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 
 }
+
+@media only screen and (min-width: 768px ){
+  .modal-caption{
+    width: 360px; ;
+  }
+
+}
+
 .modal-form {
 
 }
