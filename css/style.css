@@ -31,7 +31,7 @@ section {
   
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1157px) {
   section{
     padding-top: 96px;
     padding-bottom: 96px;
@@ -398,7 +398,7 @@ background: #F4F4FD;
 .benefits-icon {
 }
 
-@media screen and (max-width:1339px) {
+@media screen and (max-width:1158px) {
   .benefits-wrapper{
     display: none;
   }
@@ -468,6 +468,12 @@ text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  font-weight: 500;
+}
+@media screen and (min-width: 1158px) {
+  .benenefits-desc {
+    font-weight: 400;
+  }
 }
 
 /* @media  screen and (min-width:768px ) {
